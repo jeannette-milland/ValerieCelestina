@@ -1,0 +1,80 @@
+h1 {
+ text-align: center;
+ color: white;
+ background: purple;
+ padding: 5px;
+ font-family: 'Lobster', cursive;
+}
+  
+body{
+  background: linear-gradient(to bottom right, lemonchiffon, purple);
+  padding:15px;
+  font-family: Times;
+}
+.column1{
+  width:48%;
+  float: right;
+}
+.column2 {
+  width:48%;
+  float:right;
+}
+img{
+  max-width: 100%;
+}
+.photo{
+  box-shadow:4px 4px 4px gray;
+  /*transform: rotate(10deg);*/
+}
+h2 {
+  color:white;
+  background: purple;
+  padding:5px;
+  margin:0px 0px 10px 0px;
+  box-shadow: 2px 2px 2px gray;
+  text-align: center;
+}
+
+.item{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 3px ;
+}
+
+#robots{
+  font-size:30px;
+  color:white;
+  background:linear-gradient(green, yellow, orange, red, purple, blue);
+  padding:30px;
+  border-radius:5px;
+  text-align:center;
+}
+#firerobot{
+  height: 100px;
+  position: absolute;
+  left: -200px;
+  animation: slide1 5s infinite;
+}
+@keyframes slide1 { 
+  0% { left: -200px}
+  50% { left: 0}
+  100% { left: -200px}
+}
+#dogrobot{ 
+  top: 500px
+  ;
+  height: 100px;
+  position: absolute;
+  left: -200px;
+  animation: slide2 5s infinite;
+}
+@keyframes slide2 { 
+  0% { left: -200px}
+  50% { left: 100%}
+  100% { left: -200px} 
+}
+
+a {
+  text-decoration:none;
+  color:black;
+}
